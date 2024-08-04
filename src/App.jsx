@@ -13,7 +13,7 @@ const App = () => {
       <h1>expenses List</h1>
       <ul>
         {items.map((item, index) => (
-          <li key={index} className={item.budget ? ' within budget' : 'over budget'}>
+          <li key={index} className={item.budget ? ' within-budget' : 'over-budget'}>
             {item.name}
           </li>
         ))}
